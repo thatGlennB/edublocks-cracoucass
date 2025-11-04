@@ -1,0 +1,9 @@
+<category name="Cracoucaaaaass" colour="#058b58" css-icon="customIcon fad fa-sun-cloud">
+    <label text="Cracoucaaaaass"></label>
+
+    <block type="import_cracoucaaaaass"></block>
+
+    <block type="cracoucaaaaass_init"></block>
+
+    <block type="cracoucaaaaass_speak"></block>
+</category>
