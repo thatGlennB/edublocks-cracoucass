@@ -25,7 +25,11 @@ Blockly.Blocks['cracoucaaaaass_speak'] = {
     init: function() {
         this.appendDummyInput()
           .appendField(new Blockly.FieldVariable("cracoucaaaaass"), "cracoucaaaaass")
-          .appendField(".speak()");
+          .appendField(".speak(");
+        this.appendValueInput("parameters")
+          .setCheck(null);
+        this.appendDummyInput()
+          .appendField(")");
         this.setPreviousStatement(true, null);
         this.setNextStatement(true, null);
         this.setColour(cracoucaaaaassColor);
