@@ -1,3 +1,3 @@
 class Cracoucaaaaass:
-  def speak(self):
-    print("Cracoucaaaaass")
+  def speak():
+    print ("Cracoucaaaaass")
